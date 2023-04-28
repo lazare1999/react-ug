@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Button, SafeAreaView, Platform, StatusBar, StyleSheet, Text, View } from 'react-native';
-import MyAxiosFunctions from './axiosFunctions/axiosFunctions';
+import MyAxiosFunctions from './axiosFunctions';
 
 const myAxiosFunctions = new MyAxiosFunctions()
 
